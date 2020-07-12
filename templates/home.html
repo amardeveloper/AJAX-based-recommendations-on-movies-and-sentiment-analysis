@@ -18,7 +18,6 @@
   <!-- Auto Complete -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/css/autoComplete.min.css">
   <link rel= "stylesheet" type= "text/css" href= "../static/style.css">
-  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <script type="text/javascript">
     var films = {{suggestions|tojson}};
   </script>
@@ -29,13 +28,13 @@
   <div class="ml-container" style="display: block;">
     <a href="https://github.com/amardeveloper/AJAX-based-recommendations-on-movies-and-sentiment-analysis" target="_blank" title="My GitHub Repository">
       <img data-toggle="tooltip" style="float: right; fill:#09e56c; position: fixed;z-index:100; top: 0; border: 0; right: 0;" src="../static/github.gif" alt="github logo" height="50px" width="50px" >
-    </img><br><p style="color:#09e56c;">Github</p></a>
+    </img></a>
     <center><h1 style=" font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       color: #09e56c;
       font-weight: bold;
       font-size: 35px;
       margin-top: 30px;
-      text-shadow: #000000 0px 0px 13px;"> Movie Recommendation System</h1></center>
+      text-shadow: #000000 0px 0px 13px;">Get Any Movie Data</h1></center>
     <div class="form-group shadow-textarea" style="margin-top: 30px;text-align: center;color: white;">
         <input type="text" name="movie" class="movie form-control" id="autoComplete" autocomplete="off" placeholder="Enter the Movie Name" style="background-color: #ffffff;border-color:#ffffff;width: 60%;color: #181818" required="required" />
         <br>
@@ -60,7 +59,7 @@
     </center>
 	</div>
 	
-	<div class="footer">Made with<span style="font-size:150%;color:#09e56c;"> &hearts; </span>Designed by AMAR<span style="font-size:150%;color:#09e56c;"> &hearts; </span></div>
+	<div class="footer"><span style="font-size:150%;color:#09e56c;"> &hearts; </span>Designed by AMAR<span style="font-size:150%;color:#09e56c;"> &hearts; </span></div>
 	
 	<script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
   <script type="text/javascript" src="{{url_for('static', filename='autocomplete.js')}}"></script>
