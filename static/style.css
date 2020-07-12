@@ -1,3 +1,10 @@
+.header {
+	background-color:#09e56c; color:#fff; position: fixed;
+	z-index:100; top: 0; border: 0; right: 0; width: 100%; height: 40px;
+}
+.ml-container{
+	margin-top: 150px;
+}
 .movie {
 	color: #fff;
 	margin-left: auto;
